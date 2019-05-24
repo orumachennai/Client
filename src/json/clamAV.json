@@ -1,0 +1,51 @@
+[{
+	"_id": "5c9db2923143246c8f4c3c52",
+	"known_viruses": 4566343,
+	"url": "https://osl-jenkins-dev-1.eng.nutanix.com/job/HCLTest/job/new_clamav_scan/23",
+	"dateTime": "Mar 28, 2019 22:49 PM",
+	"scanned_directories": 5553,
+	"infected": 0,
+	"reponame": "master",
+	"passed": 38001,
+	"jobNumber": 23
+}, {
+	"_id": "5c9db2923143246c8f4c3c52",
+	"known_viruses": 4566343,
+	"url": "https://osl-jenkins-dev-1.eng.nutanix.com/job/HCLTest/job/new_clamav_scan/23",
+	"dateTime": "Mar 28, 2019 22:49 PM",
+	"scanned_directories": 5553,
+	"infected": 0,
+	"reponame": "master",
+	"passed": 38001,
+	"jobNumber": 23
+}, {
+	"_id": "5c9db2923143246c8f4c3c52",
+	"known_viruses": 4166343,
+	"url": "https://osl-jenkins-dev-1.eng.nutanix.com/job/HCLTest/job/new_clamav_scan/23",
+	"dateTime": "Mar 28, 2019 22:49 PM",
+	"scanned_directories": 3553,
+	"infected": 0,
+	"reponame": "master",
+	"passed": 28001,
+	"jobNumber": 23
+}, {
+	"_id": "5c9db2923143246c8f4c3c52",
+	"known_viruses": 4966343,
+	"url": "https://osl-jenkins-dev-1.eng.nutanix.com/job/HCLTest/job/new_clamav_scan/23",
+	"dateTime": "Mar 28, 2019 22:49 PM",
+	"scanned_directories": 3653,
+	"infected": 0,
+	"reponame": "master",
+	"passed": 28001,
+	"jobNumber": 23
+}, {
+	"_id": "5c9db2923143246c8f4c3c52",
+	"known_viruses": 2566343,
+	"url": "https://osl-jenkins-dev-1.eng.nutanix.com/job/HCLTest/job/new_clamav_scan/23",
+	"dateTime": "Mar 28, 2019 22:49 PM",
+	"scanned_directories": 3553,
+	"infected": 0,
+	"reponame": "master",
+	"passed": 18001,
+	"jobNumber": 23
+}]

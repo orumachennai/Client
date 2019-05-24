@@ -1,0 +1,213 @@
+@import "~antd/dist/antd.less"; 
+@import "_colors";
+@import "_header";
+
+@font-face {
+  font-family: NutanixSoft;
+  src: url('../../../fonts/NutanixSoft-Bold.otf');
+  src: url('../../../fonts/NutanixSoft-Medium.otf');
+  src: url('../../../fonts/NutanixSoft-Regular.otf');
+  src: url('../../../fonts/NutanixSoft-Semibold.otf');
+  src: url('../../../fonts/NutanixSoft-Thin.otf');
+}
+
+body {
+	font-family: NutanixSoft !important;
+    background-color: @bac-col;
+}
+
+.common-content-layout{ 
+   padding: 24px;
+   margin: 0px;
+	margin-top: 64px;
+   minHeight: 280px;
+   .common-content-page {
+	 padding: 10px;
+	 .add-connent-page-header{
+	   text-align: center;
+       font-size: 16px;
+       font-weight: bold;
+	   padding-bottom: 40px;
+	 }
+	 .add-connent-page-row {
+	   margin-bottom: 10px;
+	   .add-connent-input-txt{
+	     width: 11%;
+		 font-weight: bold;
+	   }
+	   .add-connent-input-btn {
+         padding-left: 11%;
+         padding-top: 19px;
+       } 
+	 }
+   }
+}
+
+.clamAV-Box {
+	margin-bottom: 10px;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: .25rem;
+    text-align: center;
+	min-width: 170px;
+	.clamAV-icon {
+	  i{
+		font-size:35px;
+	  }
+    }
+    .clamAV-txt {
+	  .clamAV-count {
+	    font-weight: bold;
+	    display: block;
+	  }
+    }
+	
+	.clamAV-status-passed {
+	  i{
+		color:@status-green;
+	  }
+	  .clamAV-status-txt{
+	    color:@status-green;
+	  }
+	}
+
+	.clamAV-status-scanned-directories {
+	  i{
+		color:#808080;
+	  }
+	  .clamAV-status-txt{
+	    color:#808080;
+	  }
+	}
+	.clamAV-status-infected {
+	  i{
+		color:@status-red;
+	  }
+	  .clamAV-status-txt{
+	    color:@status-red;
+	  }
+	}
+	.clamAV-status-warning {
+	  i{
+		color:@status-info;
+	  }
+	  .clamAV-status-txt{
+	    color:@status-info;
+	  }
+	}
+}
+
+
+.surfaceAnalysis-Box {
+	margin-bottom: 10px;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: .25rem;
+    text-align: center;
+	min-width: 290px;
+	.surfaceAnalysis-row-count {
+		font-weight: bold;
+	}
+}
+
+
+.foss-Box {
+	margin-bottom: 10px;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: .25rem;
+    text-align: center;
+	min-width: 170px;
+	.foss-row-count {
+		font-weight: bold;
+	}
+}
+.foss-row-charting {
+	    margin-top: 40px;
+	}
+.fossSecondRow {
+    margin-top: 30px;
+}
+.colorCritical {
+   color:@status-red;
+   font-weight: bold;
+}
+.colorHigh {
+  color:@status-warning;
+  font-weight: bold;
+}
+.colorMedium {
+  color: #108ee9;
+  font-weight: bold;
+}
+.colorLow {
+  color:@status-green;
+  font-weight: bold;
+}
+
+.common-page-title {
+  h2{
+     color: #108ee9;
+  }
+  @media (min-width: 992px) {
+    padding: 0px 0 40px 0;
+  }
+  padding: 15px 0 40px 0;
+}
+// @media (min-width: 992px) {
+// 	.ant-col-lg-6 {
+//     display: block;
+//     box-sizing: border-box;
+// 		width: 24% !important;
+// 	}
+// }
+
+
+
+
+.dashboard-col-box {
+	margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: .25rem;
+    padding: 15px;
+	min-width: 265px;
+  
+	.row-box-title {
+	  color: #8E8E8E;
+      font-size: 12px;
+	  border-bottom: 1px solid #E8E8E8;
+	  padding-bottom: 10px;
+	  margin-bottom: 10px;
+	}
+	.row-box-more-link {
+	  color: #8E8E8E;
+      font-size: 12px;
+	  border-top: 1px solid #E8E8E8;
+	  padding-top: 10px;
+	  margin-top: 10px;
+	}
+	.row-box-content {
+	   font-size: 12px;
+	   padding: 5px 0 5px 0;
+	   span{
+	     font-weight: bold;
+	   }
+	}
+	.critical-severity {
+	  color: #f46e65;
+	}
+	.clamAV-passed {
+	  color: #46D474;
+	}
+	.clamAV-infected {
+	  color: #f46e65;
+	}
+	.clamAV-warning {
+	  color: #ffad33;
+	}
+	
+	.blackDuck {
+	   height: 84px;
+	}
+	
+}

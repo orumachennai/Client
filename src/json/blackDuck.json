@@ -1,0 +1,22 @@
+[{
+	"_id" : "5c9cb6903143246c8f4bbe3d",
+   "dateTime": "2019-03-27T18:13:51.461Z",
+	"MEDIUM" : 59,
+	"OK" : 349,
+	"UNKNOWN" : 0,
+	"HIGH" : 35,
+	"version" : "AOS-GoldImage-5.10",
+	"LOW" : 21,
+	"version_name" : "euphrates-5.10.4-stable-138"
+ },
+ {
+	"_id" : "5c9cb6903143246c8f4bbe3d",
+   "dateTime": "2019-05-26T18:13:51.461Z",
+	"MEDIUM" : 59,
+	"OK" : 349,
+	"UNKNOWN" : 0,
+	"HIGH" : 35,
+	"version" : "AOS-GoldImage-5.10",
+	"LOW" : 21,
+	"version_name" : "euphrates-5.10.4-stable-138"
+ }]
