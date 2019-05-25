@@ -1,7 +1,7 @@
 import { Form, Checkbox, Table, Input, Select, DatePicker } from 'antd';
 import React, { Component, PropTypes } from 'react';
 
-export function getTable(data, columnMetadata, className, loading = false, onChange, bordered) {
+export function getTable(data, columnMetadata, rowSelection, className, loading = false, onChange, bordered) {
     return <Table
         dataSource={data}
         columns={columnMetadata}
@@ -9,6 +9,7 @@ export function getTable(data, columnMetadata, className, loading = false, onCha
         loading={loading}
         onChange={onChange}
         bordered={bordered}
+        rowSelection={rowSelection}
     />
 }
 

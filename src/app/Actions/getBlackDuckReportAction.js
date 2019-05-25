@@ -5,6 +5,39 @@ export function getBlackDuckReportSuccess(getBlackDuckReportData) {
   return { type: types.BLACK_DUCK_VIRUS_REPORT_SUCCESS, getBlackDuckReportData: { getBlackDuckReportData } };
 }
 
+export function fetchTransactionDetails() {
+  console.log("fetchTransactionDetails   kkk")
+  //return { type: types.FETCH_TRANSACTION_DATA, getBlackDuckReportData: { } };
+  return fetch('http://localhost:8000/api/transaction', {
+    method:'GET',
+  headers : { 
+      'Content-Type': 'application/json',
+      'Accept': 'application/json'
+     }
+  })
+  .then((response) => {
+     return response.json();
+  }).catch((error) => {
+    console.log("Error ",error)
+     return Promise.reject(error);
+  });
+}
+  /* return function defaultDispatch(dispatch) {
+    console.log("defaultDispatch called")
+    return getBlackDuckReportApi.getBlackDuckReport().then((getBlackDuckReportData) => {
+      var response = getBlackDuckReportData;
+      dispatch(getTransactionData(DashBoardValue));
+    }).catch((err) => {
+      return Promise.reject(err);
+    });
+  };
+} */
+
+
+export function getTransactionData(response) {
+  return { type: types.FETCH_TRANSACTION_DATA, getBlackDuckReportData: { response } };
+}
+
 export function getBlackDuckReportDates(getBlackDuckReportDates) {
   return { type: types.BLACK_DUCK_REPORT_DATES, getBlackDuckReportDates: { getBlackDuckReportDates } };
 }

@@ -1,5 +1,7 @@
 
 //Builds Data Actions 
+
+export const FETCH_TRANSACTION_DATA = 'fetchTransactionDetails';
 export const CLAM_AV_VIRUS_REPORT_SUCCESS = 'CLAM_AV_VIRUS_REPORT_SUCCESS';
 
 export const CLAM_AV_REPORT_DATES = 'CLAM_AV_REPORT_DATES';

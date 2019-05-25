@@ -1,6 +1,11 @@
 import * as types from './ActionTypes';
 import getBlackDuckReportApi from '../api/GetBlackDuckReportApi';
 
+export function fetchTransactionDetails() {
+  console.log("fetchTransactionDetails ")
+  return { type: types.FETCH_TRANSACTION_DATA, getBlackDuckReportData: { } };
+}
+
 export function getBlackDuckReportSuccess(getBlackDuckReportData) {
   return { type: types.BLACK_DUCK_VIRUS_REPORT_SUCCESS, getBlackDuckReportData: { getBlackDuckReportData } };
 }

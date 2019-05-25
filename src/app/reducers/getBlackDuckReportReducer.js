@@ -3,6 +3,8 @@ import * as types from '../Actions/ActionTypes';
 
 export default function getBlackDuckReport(state = initialState, action) {
   switch (action.type) {
+    case types.FETCH_TRANSACTION_DATA:
+        return Object.assign({}, state, action.data);
     case types.BLACK_DUCK_VIRUS_REPORT_SUCCESS:
     return Object.assign({}, state, action.getBlackDuckReportData);
 case types.BLACK_DUCK_REPORT_DATES:
